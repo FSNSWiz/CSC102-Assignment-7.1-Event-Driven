@@ -1,0 +1,57 @@
+/*This is the styling for both of the body and paragraph properties.*/
+body,
+p {
+    text-align: center;
+    background-color: black;
+    color: greenyellow;
+}
+
+/*The background color was changed to black and the text color was change to greenyellow.*/
+
+
+/*This is the styling for the navigation menu*/
+nav {
+    height: 100px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+/*The height, width, float, padding, and line height were all adjusted.*/
+
+/*This is the styling for the footer.*/
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+/*The text alignment, font size, and margin right were each changed for the footer.*/
+
+/*This is the styling for the ID labeled: meme.*/
+#Meme {
+    margin-right: 200px;
+}
+
+/*This is the styling for the header.*/
+header {
+    text-align: center;
+}
+
+.startButton {
+    text-align: center;
+    background-color: green;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: yellowgreen;
+}
+
+.stopButton {
+    background-color: darkred;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: red;
+}

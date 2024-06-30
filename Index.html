@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<!--Assignment 1.3: Using CSS to make it personal
+     Fabian Sherrill
+     May 26th 2024 
+     Fsherrill84129@uat.edu -->
+<!--Assignment 7.1: Event driven
+     A start to move the picture around the page and a stop to stop movement
+     Fabian Sherrill
+     June 20th, 2024 
+     Fsherrill84129@uat.edu
+-->
+
+<head>
+    <!--This links the css to this html page-->
+    <link rel="stylesheet" type="text/css" href="Main.css">
+    <script src="Code.js"></script>
+    <center>
+        <Title>
+            Project 1
+        </Title>
+    </center>
+</head>
+
+<body>
+    <header>
+        <h1>Objective 1</h1><br>
+    </header>
+    <nav>
+        <h2>Navigation</h2>
+        <h3>
+            <!--These tags link the index page as the home page and boards page as its own page. 
+            This makes it possible to go to each page at the navigation menu-->
+            <a href="Index.html">Home</a><br>
+            <a href="Boards.html">Boards</a><br>
+            <a href="Game.html">Free Game</a><br>
+            <a href="Strings.html">Input Validation</a><br>
+        </h3>
+    </nav>
+    <p>Seventh assignment in CSC102 <br><br>
+        <marquee id="myMarquee" direction="right" scrollamount="20">
+            <img id="Meme" alt="Funny Meme"src="./Pics/meme.png">
+        </marquee>
+    </p>
+    <button id="startButton" onclick="startFun();" class="startButton">Start</button>
+    <button id="stopButton" onclick="stopFun();" class="stopButton">Stop</button><br><br>
+    <footer>
+        Fabian Sherrill <br>
+        University of Advancing Technology <br>
+        2625 W Baseline Rd, <br>
+        Tempe, AZ 85283 <br>
+        (800)658-5744
+    </footer>
+</body>
+
+</html>
